@@ -26,5 +26,5 @@ https://data.mendeley.com/datasets/b2wvnbnpj9/1
 5. Is population size a determinant of cross-country differentials in impact of Covid-19?
 
  ### Technologies, languages, tools, and algorithms used throughout the project
-Excel, SQL, Python/Pandas, Tableau
+Excel, SQL, Python/Pandas, Tableau---to write details of it
 Machine learning More to be decided
