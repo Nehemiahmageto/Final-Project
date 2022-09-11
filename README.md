@@ -1,5 +1,6 @@
 # Final-Project
 
+Database page can be viewed via this link: https://github.com/AhmedFrz/Final-Project/tree/Database-setup
 
 DATABASE/FINAL-PROJECT
 
