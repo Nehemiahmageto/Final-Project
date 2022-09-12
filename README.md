@@ -1,6 +1,12 @@
-# Final-Project
+## FINAL PROJECT - SEGMENT 1. 
 
-## Overview of the Project
+## Selected Topic: 
+
+The Effects of COVID-19 on the Global Macroeconomy.
+
+## Reason Why They Selected Their Topic: 
+
+
 Covid-19 is a recent phenomenon which has affected the countries around the globe.
 In this project, we will try to dig into the data of 212 countries and find out how, to what extent and to what countries this pandemic has affected. 
 For this purpose, we will using data from Mendeley (https://data.mendeley.com/datasets/b2wvnbnpj9/1)
