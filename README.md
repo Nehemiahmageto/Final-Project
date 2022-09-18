@@ -42,3 +42,12 @@ https://data.mendeley.com/datasets/b2wvnbnpj9/1
  
  
 Excel, SQL, Python/Pandas, Tableau. 
+
+
+
+SEGMENT 2. 
+
+
+## Description of the Communication Protocols:
+
+Slack Group Chat: We have a 
