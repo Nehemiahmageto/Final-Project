@@ -57,5 +57,5 @@ SEGMENT 2.
 - Zoom Meetings: We set up 1hr Zoom meetings twice a week, every Thursdays and Saturdays, where we get to dive deeper into the requirements of the project. Here we get the chance to address issues and check in on everyone's progress. We are able to talk freely on our strengths and weaknesses on the project and collaborate together to help one another. We also get to share feedback on each person's deliverable and provide recommendations on areas of improvement. 
 
 
-## Outline of the Project: 
+
 
