@@ -45,7 +45,7 @@ Excel, SQL, Python/Pandas, Tableau.
 
 
 
-SEGMENT 2. 
+## SEGMENT 2. 
 
 
 ## Description of the Communication Protocols:
