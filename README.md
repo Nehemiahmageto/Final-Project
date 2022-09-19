@@ -42,3 +42,20 @@ https://data.mendeley.com/datasets/b2wvnbnpj9/1
  
  
 Excel, SQL, Python/Pandas, Tableau. 
+
+
+
+SEGMENT 2. 
+
+
+## Description of the Communication Protocols:
+
+- Slack Group Chat: We have a group chat in Slack that we use as our primary form of contact with each other. We collaborate effectively here because we are able to ask questions when they arise, share meaningful ideas, split tasks and give critisms when needed. Its also the best way to give reminders for the project, if we feel the need to bring up an idea or a reminder that may be beneficial to the team, we communicate that through this group chat. It is very open for all team members and is the best strategy in making sure that we are all engaged with one another. 
+
+
+
+- Zoom Meetings: We set up 1hr Zoom meetings twice a week, every Thursdays and Saturdays, where we get to dive deeper into the requirements of the project. Here we get the chance to address issues and check in on everyone's progress. We are able to talk freely on our strengths and weaknesses on the project and collaborate together to help one another. We also get to share feedback on each person's deliverable and provide recommendations on areas of improvement. 
+
+
+## Outline of the Project: 
+
