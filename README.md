@@ -186,6 +186,43 @@ The link to the google slide Dashboard presentation can also be accessed via htt
 (III).	MACHINE LEARNING
 
 
+
+
+
+
+(IV) Dashboard and Vizualization 
+
+
+
+## Total Deaths Map
+![image](Visualization/Resource/1.png)
+
+## Total Deaths and GDPPC
+
+![image](Visualization/Resource/2.png)
+
+
+## Total Deaths and HDI
+
+![image](Visualization/Resource/3.png)
+
+
+## Total Deaths and Population 
+![image](Visualization/Resource/4.png)
+
+
+## Top seven affected countries 
+![image](Visualization/Resource/5.png)
+
+## Covid-19 Dashboard
+
+![image](Visualization/Resource/6.png)
+
+
+
+
+
+
 3.	SUMMARY/CONCLUSION
 
 As seen in the analysis, the COVID-19 pandemic had a great negative impacts on the world’s economy. The maps and the charts also showed how the pandemic affected the GDP per capita, HDI and the population size generally.
