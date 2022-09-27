@@ -59,7 +59,8 @@ Excel, SQL, Python/Pandas, Tableau.
 
 2.	RESULTS
 
-(I).	 DATABESE
+(I).		DATABASE
+
 
 Database page can be viewed via this link: https://github.com/AhmedFrz/Final-Project/tree/Database-setup
 
@@ -172,4 +173,14 @@ ii. db_string = f"postgresql://postgres:{db_password}@127.0.0.1:5432/covid_db"
 iii. engine = create_engine(db_string)
 
 iv. df.to_sql(name='covid', con=engine)
+
+
+(II).	DASHBOARD
+
+The link to the google slide Dashboard presentation can be accessed via https://docs.google.com/presentation/d/1-0RUuVZid_4WvvChL8Ro4bMWCxdVINVPieR12Kr9MvE/edit?usp=sharing
+
+
+(III).	MACHINE LEARNING
+
+
 
