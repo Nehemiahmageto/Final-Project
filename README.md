@@ -57,5 +57,111 @@ Excel, SQL, Python/Pandas, Tableau.
 - Zoom Meetings: We set up 1hr Zoom meetings twice a week, every Thursdays and Saturdays, where we get to dive deeper into the requirements of the project. Here we get the chance to address issues and check in on everyone's progress. We are able to talk freely on our strengths and weaknesses on the project and collaborate together to help one another. We also get to share feedback on each person's deliverable and provide recommendations on areas of improvement. 
 
 
+2.	RESULTS
 
+(I).	 DATABESE
+
+Database page can be viewed via this link: https://github.com/AhmedFrz/Final-Project/tree/Database-setup
+
+Data Cleaning
+
+Data cleaning means fixing bad data in the data set.
+
+The first thing I did was that I imported the dataset to see which of the data are bad, empty, and wrong (format) data by using the following code:
+
+a. Loading the data
+
+df=pd.read_csv("raw_data.csv")
+
+df.head()
+
+image
+
+b. Renaming the columns
+
+df = df.rename(columns = {'Unnamed: 9':'TC','human_development_index (HDI)':'HDI','Unnamed: 10':'TD','Unnamed: 11':'STI','Unnamed: 12':'POP','Unnamed: 13':'GDPCAP'})
+
+df
+
+image
+
+c. Converting #NUM to NaN
+
+df['TC'] = pd.to_numeric(df['TC'],errors = 'coerce')
+
+df['TD'] = pd.to_numeric(df['TD'],errors = 'coerce')
+
+df['STI'] = pd.to_numeric(df['STI'],errors = 'coerce')
+
+df['GDPCAP'] = pd.to_numeric(df['GDPCAP'],errors = 'coerce')
+
+df
+
+image
+
+d. Checking the numbers of NaN values
+
+df.isnull().sum()
+
+image
+
+e. Replacing NaN values with a float
+
+df['total_cases'] = df['total_cases'].replace(np.nan, float(0))
+
+df['total_deaths'] = df['total_deaths'].replace(np.nan, float(0))
+
+df['stringency_index'] = df['stringency_index'].replace(np.nan, float(0))
+
+df['population'] = df['population'].replace(np.nan, float(0))
+
+df['gdp_per_capita'] = df['gdp_per_capita'].replace(np.nan, float(0))
+
+df['HDI'] = df['HDI'].replace(np.nan, float(0))
+
+df
+
+image
+
+image
+
+f. Replacing NaN for remaining columns
+
+df['TC'] = df['TC'].combine_first(0 * df['total_cases'])
+
+df['TD'] = df['TD'].combine_first(0 * df['total_deaths'])
+
+df['STI'] = df['STI'].combine_first(0 * df['stringency_index'])
+
+df['GDPCAP'] = df['GDPCAP'].combine_first(0 * df['gdp_per_capita'])
+
+df.head()
+
+image
+
+image
+
+g. Description of the data in the dataset
+
+df.describe()
+
+image
+
+h. Saving the cleaned data to a new file
+
+df.to_csv("cleaned_covid_data.csv",index=False)
+
+PgAdmin
+A database named “covid_db” was created in the PgAdmin database to hold our data. Since we are working on only one dataset, we could not create an ERD for the work.
+
+CONNECTING TO DATABASE
+After creating the database the following command were used to interface the database
+
+i. from config import db_password
+
+ii. db_string = f"postgresql://postgres:{db_password}@127.0.0.1:5432/covid_db"
+
+iii. engine = create_engine(db_string)
+
+iv. df.to_sql(name='covid', con=engine)
 
