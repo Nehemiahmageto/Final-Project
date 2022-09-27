@@ -177,10 +177,21 @@ iv. df.to_sql(name='covid', con=engine)
 
 (II).	DASHBOARD
 
-The link to the google slide Dashboard presentation can be accessed via https://docs.google.com/presentation/d/1-0RUuVZid_4WvvChL8Ro4bMWCxdVINVPieR12Kr9MvE/edit?usp=sharing
+The link to the google slide Dashboard presentation can be accessed via
+https://docs.google.com/presentation/d/1-0RUuVZid_4WvvChL8Ro4bMWCxdVINVPieR12Kr9MvE/edit?usp=sharing
 
+
+The link to the google slide Dashboard presentation can also be accessed via https://public.tableau.com/app/profile/sesan4767/viz/CovidAnalysis3_16634562183400/STORYBOARD?publish=yes
 
 (III).	MACHINE LEARNING
+
+
+3.	SUMMARY/CONCLUSION
+
+As seen in the analysis, the COVID-19 pandemic had a great negative impacts on the world’s economy. The maps and the charts also showed how the pandemic affected the GDP per capita, HDI and the population size generally.
+
+
+
 
 
 
